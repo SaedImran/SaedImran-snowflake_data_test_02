@@ -43,9 +43,8 @@ conn = ctx.cursor()
 
 # df = pd.read_sql('select * from IT_SERVICEBERICHTE.AFA.TARGET_AFA limit 20;', con = conn)
 
-
 conn.execute("SELECT * FROM test_GIT_table")
 results = conn.fetchall()
 for n in results:
-    print(n, 'fetch data_4')
+    print(n, 'fetch all data')
 
