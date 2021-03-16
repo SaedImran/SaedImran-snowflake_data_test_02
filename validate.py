@@ -55,5 +55,6 @@ conn.execute( "INSERT INTO test_GIT_table_Contact(CodeNo , Name , City , Email )
 + " (20178, 'Fabian S.',    'Fabian.Schleizer@funkemedien.de',   'Erfurt'), " 
 + " (20178, 'Axel S.',      'Axel.schramm@funkemedien.de',       'Essen'), " 
 + " (20182, 'Sebastian W.', 'Sebastian.Wirries@funkemedien.de',  'Braunschweig'),"
-+ " (20196, 'Ali T.',       'Ali.Thaifa@funkemedien.de',         'Braunschweig')"
++ " (20196, 'Ali T.',       'Ali.Thaifa@funkemedien.de',         'Essen'),"
++ " (20211, 'Fabian W.',    'Fabian.Werkmeister@funkemedien.de', 'Hamburg')"
 )
