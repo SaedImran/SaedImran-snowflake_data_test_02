@@ -48,3 +48,11 @@ results = conn.fetchall()
 for n in results:
     print(n, 'fetch all data')
 
+# create test 2nd table and insert data
+conn.execute( "CREATE OR REPLACE TABLE test_GIT_table_2(CodeNo integer, Name string, City string, Email string)" )
+conn.execute( "INSERT INTO test_GIT_table_2(CodeNo , Name , City , Email ) VALUES " 
++ " (20178, 'Fabian S.',    'Fabian.Schleizer@funkemedien.de',   'Erfurt'), " 
++ " (20178, 'Axel S.',      'Axel.schramm@funkemedien.de',       'Essen'), " 
++ " (20182, 'Sebastian W.', 'Sebastian.Wirries@funkemedien.de',  'Braunschweig'),"
++ " (20196, 'Ali T.',       'Ali.Thaifa@funkemedien.de',         'Braunschweig')"
+)
